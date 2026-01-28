@@ -1,0 +1,87 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffde03;
+}
+
+#title {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+#winner {
+    font-weight: 900;
+    font-size: 40px;
+    height: 48px;
+    background-color: white;
+    border: 3px solid #0336ff;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+#round {
+    height: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #ff0266;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.playground {
+    background-color: #ff0266;
+    display: flex;
+    height: 400px;
+    border: 3px solid;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#machine {
+    font-weight: 900;
+    background-color: white;
+    width: 300px;
+    border: 2px solid ;
+    flex-shrink: 1;
+}
+
+#user {
+    font-weight: 900;
+    background-color: white;
+    width: 300px;
+    border: 2px solid ;
+    flex-shrink: 1;
+}
+
+#u_ans1, #u_ans2, #u_ans3,#m_ans {
+    display: block;
+    background-color: #0336ff;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid #ff0266;
+    width: 100px;
+    margin: 50px 100px ;
+}
+
+#ply {
+    display: block;
+    align-self: center;
+    background-color: #0336ff;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid #ff0266;
+    width: 100px;
+    height: 40px;
+}
