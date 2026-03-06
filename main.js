@@ -47,7 +47,7 @@ async function play (){
     document.getElementById("u_p").textContent = `Points ${u_points}`;
     document.getElementById("m_p").textContent = `Points ${m_points}`;
     document.getElementById("round").textContent= `This is round 0 `;
-    alert("The game has started, it consists of 5 rounds wins who has more points ")
+    
     for (let i = 1 ; i <=5; i++){
         //alert("chose one ");
         document.getElementById("round").textContent= `This is round ${i}`;
